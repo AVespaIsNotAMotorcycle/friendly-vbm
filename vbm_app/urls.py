@@ -9,7 +9,7 @@ urlpatterns = [
 
     # URI bruteforce page
     path('uris', views.bruteURI, name='bruteURI'),
-
+    
     # Request bruteforce page
     path('reqs', views.bruteReqs, name='bruteReqs'),
 ]
